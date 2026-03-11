@@ -1,0 +1,5 @@
+KPI,Formula (enter in Dashboard sheet)
+Avg Historical Monthly Sales,=AVERAGE(Historical_Data!B2:B)
+Avg Forecast Monthly Sales,"=AVERAGE(Forecast_Output!D2:INDEX(Forecast_Output!D:D,1+Model_Inputs!B1))"
+Projected Annual Demand,"=SUM(Forecast_Output!D2:INDEX(Forecast_Output!D:D,13))"
+Avg Reorder Point,"=AVERAGE(Forecast_Output!H2:INDEX(Forecast_Output!H:H,1+Model_Inputs!B1))"

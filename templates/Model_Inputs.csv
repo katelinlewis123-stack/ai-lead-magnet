@@ -1,0 +1,19 @@
+Setting,Value,Description
+Forecast_Horizon_Months,12,How many months ahead to forecast
+Confidence_Z,1.28,"Use 1.28 (80%), 1.65 (90%), 1.96 (95%)"
+Lead_Time_Months,2,Supplier lead time in months
+Service_Level_Target,0.9,Used for policy planning
+,,
+Month_Num,Season_Multiplier,Promo_Uplift_Pct
+1,0.92,0.12
+2,0.92,0.12
+3,1.0,0.12
+4,1.0,0.12
+5,1.0,0.12
+6,1.0,0.12
+7,1.0,0.12
+8,1.0,0.12
+9,1.0,0.12
+10,1.0,0.12
+11,1.15,0.12
+12,1.15,0.12
